@@ -121,16 +121,48 @@
         </section>
         <section id="book" class="reservation">
           <h2 class="reservation__title">Book a table</h2>
-          <form action="" class="reservation__form">
+          <!--Line 125 is a mix. This is when you use a block(form) and an element of a parent block(reservation__form) for class.-->
+          <form action="" class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label">Name*</label>
-              <input type="text" class="form__input" />
-              <label for="" class="form__label">Number of guests*</label>
-              <input type="number" class="form__input" />
-              <label for="" class="form__label">Date & time*</label>
-              <input type="datetime-local" class="form__input" />
-              <label for="" class="form__label">Your email*</label>
-              <input type="email" class="form__input" />
+              <label for="" class="form__label"
+                >Name*
+                <input
+                  type="text"
+                  class="form__input"
+                  name=""
+                  placeholder="Name Surname"
+                  required
+                />
+              </label>
+              <label for="" class="form__label"
+                >Number of guests*
+                <input
+                  type="number"
+                  class="form__input"
+                  name=""
+                  placeholder="1-8"
+                  required
+                />
+              </label>
+              <label for="" class="form__label"
+                >Date & time*
+                <input
+                  type="datetime-local"
+                  class="form__input"
+                  name=""
+                  required
+                />
+              </label>
+              <label for="" class="form__label"
+                >Your email*
+                <input
+                  type="email"
+                  class="form__input"
+                  name=""
+                  placeholder="email@email.com"
+                  required
+                />
+              </label>
               <button class="form__button">Book a table</button>
               <label for="" class="form__label">
                 I agree with the terms of use
