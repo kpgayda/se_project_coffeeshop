@@ -124,40 +124,46 @@
           <!--Line 125 is a mix. This is when you use a block(form) and an element of a parent block(reservation__form) for class.-->
           <form action="" class="reservation__form form">
             <fieldset class="form__fieldset">
-              <label for="" class="form__label"
+              <label for="name-input" class="form__label"
                 >Name*
                 <input
                   type="text"
                   class="form__input"
+                  id="name-input"
                   name=""
                   placeholder="Name Surname"
                   required
                 />
               </label>
-              <label for="" class="form__label"
+              <label for="guests-input" class="form__label"
                 >Number of guests*
                 <input
                   type="number"
+                  min="1"
+                  max="8"
                   class="form__input"
+                  id="guests-input"
                   name=""
                   placeholder="1-8"
                   required
                 />
               </label>
-              <label for="" class="form__label"
+              <label for="date-input" class="form__label"
                 >Date & time*
                 <input
                   type="datetime-local"
                   class="form__input"
+                  id="date-input"
                   name=""
                   required
                 />
               </label>
-              <label for="" class="form__label"
+              <label for="email-input" class="form__label"
                 >Your email*
                 <input
                   type="email"
                   class="form__input"
+                  id="email-input"
                   name=""
                   placeholder="email@email.com"
                   required
