@@ -1,0 +1,25 @@
+.menu {
+  padding: 100px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu__title {
+  margin: 0 0 24px; /*first 0 is top, second 0 is right and left and 24px is for the bottom.*/
+  max-width: 780px;
+}
+
+.menu__subtitle {
+  margin: 0 0 100px;
+  max-width: 780px;
+}
+
+.menu__cards {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
