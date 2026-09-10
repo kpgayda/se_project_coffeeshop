@@ -1,0 +1,47 @@
+.about {
+  position: relative; /*giving position: relative; is necessary because it enables us to have the circle contained within the about section.*/
+  background-color: #0a2850;
+  color: white;
+  padding: 100px 80px 73px;
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden; /*this prevents the circle from overlapping.*/
+  z-index: 0;
+}
+
+.about__title {
+  max-width: 251px;
+  font-family: "Inter", Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 52px;
+  margin: 0;
+}
+
+.about__content {
+  max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.about__paragraph {
+  font-family: "Noto Serif", Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 30px;
+  margin: 0;
+}
+
+.about__circle {
+  position: absolute;
+  z-index: -1;
+  top: -152px;
+  left: -129px;
+  background-color: #1878dc;
+  border-radius: 50%;
+  width: 426px;
+  height: 426px;
+}
