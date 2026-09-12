@@ -42,6 +42,25 @@
   left: -129px;
   background-color: #1878dc;
   border-radius: 50%;
-  width: 426px;
-  height: 426px;
+  width: 416px;
+  height: 416px;
+}
+
+.about__circle_animation_blurred {
+  animation: pulsate 1.3s ease-in-out 0s infinite;
+}
+
+@keyframes pulsate {
+  0% {
+    opacity: 0;
+  }
+
+  50% {
+    opacity: 0.6;
+  }
+
+  100% {
+    opacity: 0;
+    transform: scale(1.25);
+  }
 }
