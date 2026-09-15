@@ -2,7 +2,7 @@
   position: relative; /*giving position: relative; is necessary because it enables us to have the circle contained within the about section.*/
   background-color: #0a2850;
   color: white;
-  padding: 100px 80px 73px;
+  padding: 100px 80px 173px;
   display: flex;
   justify-content: space-between;
   overflow: hidden; /*this prevents the circle from overlapping.*/
@@ -27,7 +27,7 @@
 }
 
 .about__paragraph {
-  font-family: "Noto Serif", Arial, sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
@@ -42,8 +42,8 @@
   left: -129px;
   background-color: #1878dc;
   border-radius: 50%;
-  width: 416px;
-  height: 416px;
+  width: 426px;
+  height: 426px;
 }
 
 .about__circle_animation_blurred {

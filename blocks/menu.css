@@ -3,11 +3,10 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("/images/background_menu.svg");
+  background-image: url("../images/background_menu.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 0;
 }
 
 .menu__title {
@@ -23,7 +22,7 @@
 .menu__subtitle {
   margin: 0 0 100px;
   max-width: 780px;
-  font-family: "Noto Serif", "Arial", sans-serif;
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
